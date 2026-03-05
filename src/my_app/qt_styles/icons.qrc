@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/icons">
+    <file alias="down_arrow.svg">down_arrow.svg</file>
+    <file alias="up_arrow.svg">up_arrow.svg</file>
+</qresource>
+</RCC>
