@@ -5,5 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "pre-commit>=4.5.1",
     "pyqt6>=6.10.2",
+    "ruff>=0.15.4",
 ]
+
+[project.scripts]
+my-app = "my_app.main:main"
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"] # Standard flake8 rules + isort

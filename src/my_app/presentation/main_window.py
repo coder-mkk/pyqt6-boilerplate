@@ -1,12 +1,8 @@
-
-from PyQt6.QtWidgets import (
-    QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QListWidget, QListWidgetItem, QTextEdit, QSplitter, QPushButton,
-    QLineEdit, QInputDialog, QMessageBox, QLabel, QApplication
-)
-from PyQt6.QtGui import QAction, QActionGroup
-from PyQt6.QtCore import Qt, QSettings
 from my_app.qt_styles import dark, light
+from PyQt6.QtCore import QSettings
+from PyQt6.QtGui import QAction, QActionGroup
+from PyQt6.QtWidgets import QApplication, QMainWindow
+
 
 class MainWindow(QMainWindow):
     def __init__(self):
